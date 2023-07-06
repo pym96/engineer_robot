@@ -1,0 +1,13 @@
+.\objects\heap_4.o: ..\MiddleWare\FreeRTOS\portable\MemMang\heap_4.c
+.\objects\heap_4.o: D:\stm321\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\heap_4.o: ..\MiddleWare\FreeRTOS\include\FreeRTOS.h
+.\objects\heap_4.o: D:\stm321\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\heap_4.o: D:\stm321\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\heap_4.o: ..\MiddleWare\FreeRTOS\include\FreeRTOSConfig.h
+.\objects\heap_4.o: ..\MiddleWare\FreeRTOS\include\projdefs.h
+.\objects\heap_4.o: ..\MiddleWare\FreeRTOS\include\portable.h
+.\objects\heap_4.o: ..\MiddleWare\FreeRTOS\include\deprecated_definitions.h
+.\objects\heap_4.o: ..\MiddleWare\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\objects\heap_4.o: ..\MiddleWare\FreeRTOS\include\mpu_wrappers.h
+.\objects\heap_4.o: ..\MiddleWare\FreeRTOS\include\task.h
+.\objects\heap_4.o: ..\MiddleWare\FreeRTOS\include\list.h

@@ -1,0 +1,15 @@
+.\objects\event_groups.o: ..\MiddleWare\FreeRTOS\event_groups.c
+.\objects\event_groups.o: D:\stm321\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\event_groups.o: ..\MiddleWare\FreeRTOS\include\FreeRTOS.h
+.\objects\event_groups.o: D:\stm321\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\event_groups.o: D:\stm321\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\event_groups.o: ..\MiddleWare\FreeRTOS\include\FreeRTOSConfig.h
+.\objects\event_groups.o: ..\MiddleWare\FreeRTOS\include\projdefs.h
+.\objects\event_groups.o: ..\MiddleWare\FreeRTOS\include\portable.h
+.\objects\event_groups.o: ..\MiddleWare\FreeRTOS\include\deprecated_definitions.h
+.\objects\event_groups.o: ..\MiddleWare\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\objects\event_groups.o: ..\MiddleWare\FreeRTOS\include\mpu_wrappers.h
+.\objects\event_groups.o: ..\MiddleWare\FreeRTOS\include\task.h
+.\objects\event_groups.o: ..\MiddleWare\FreeRTOS\include\list.h
+.\objects\event_groups.o: ..\MiddleWare\FreeRTOS\include\timers.h
+.\objects\event_groups.o: ..\MiddleWare\FreeRTOS\include\event_groups.h

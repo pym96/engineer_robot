@@ -1,0 +1,69 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: hyh HYH, hyh, LIC=TA39H-WV62Y-GQH0H-WAP9D-FJ8CU-I7644
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.14.0.0
+Toolchain Path:  D:\STM32F4\MDK5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      UL2CM3.DLL V1.155.0.0
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+D:\HERO_PROJECT\Hero_cpp\HERO_Gimbal_cpp\Project\HERO_CHASSIS.uvprojx
+Project File Date:  07/21/2022
+
+<h2>Output:</h2>
+Build target 'HERO_CHASSIS'
+compiling protocol_judgement.cpp...
+..\Protocol\protocol_judgement.cpp(88): error:  #20: identifier "UART8_IRQn" is undefined
+      nvic.NVIC_IRQChannel = UART8_IRQn;
+..\Protocol\protocol_judgement.cpp(117): warning:  #177-D: function "MYDMA_Config" was declared but never referenced
+  static void MYDMA_Config(DMA_Stream_TypeDef *DMA_Streamx,u32 chx,u32 par,u32 mar,u16 ndtr)
+..\Protocol\protocol_judgement.cpp(199): warning:  #550-D: variable "temp" was set but never used
+  static u8 temp;
+..\Protocol\protocol_judgement.cpp(200): warning:  #550-D: variable "UART8_DataLength" was set but never used
+  static u16 UART8_DataLength;
+..\Protocol\protocol_judgement.cpp: 3 warnings, 1 error
+compiling drivers_serial.cpp...
+".\Objects\HERO_CHASSIS.axf" - 1 Error(s), 3 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.ARM_Compiler.1.7.2.pack
+                Keil.ARM Compiler::Compiler:I/O:TTY:Breakpoint:1.2.0
+                Keil ARM Compiler extensions for ARM Compiler 5 and ARM Compiler 6
+   * Component: TTY Variant: Breakpoint Version: 1.2.0
+   * Component: STDIN Variant: Breakpoint Version: 1.2.0
+   * Component: STDOUT Variant: Breakpoint Version: 1.2.0
+
+<h2>Collection of Component include folders:</h2>
+  D:\HERO_PROJECT\Hero_cpp\HERO_Gimbal_cpp\Project\RTE
+  D:\STM32F4\MDK5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: Keil.ARM Compiler::Compiler:I/O:TTY:Breakpoint:1.2.0
+      Source file:   Source\retarget_io.c
+
+   * Component: Keil.ARM Compiler::Compiler:I/O:STDIN:Breakpoint:1.2.0
+      Source file:   Source\retarget_io.c
+
+   * Component: Keil.ARM Compiler::Compiler:I/O:STDOUT:Breakpoint:1.2.0
+      Source file:   Source\retarget_io.c
+Target not created.
+</pre>
+</body>
+</html>
